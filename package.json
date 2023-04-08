@@ -1,0 +1,22 @@
+{
+  "name": "methodologies_lab1",
+  "version": "1.0.0",
+  "description": "Program to solve quadratic equations. Includes interactive and non-interactive modes.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GddgdgMen/Methodologies_lab1.git"
+  },
+  "keywords": [
+    "math"
+  ],
+  "author": "Anton Svirskyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GddgdgMen/Methodologies_lab1/issues"
+  },
+  "homepage": "https://github.com/GddgdgMen/Methodologies_lab1#readme"
+}
