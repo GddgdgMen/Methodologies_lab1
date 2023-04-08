@@ -1,5 +1,5 @@
 import { createInterface } from 'readline';
-import { solveQuadEqu } from './quadEquation.js';
+import { solveEquation } from './equation.js';
 
 const input = async (text, rl) => {
   const question = (text) => new Promise((arg) => rl.question(text, arg));
@@ -36,7 +36,7 @@ const interactiveMode = async () => {
   const c = await input('c = ', rl);
 
   rl.close();
-  solveQuadEqu(a, b, c);
+  solveEquation(a, b, c);
 };
 
 export { interactiveMode };

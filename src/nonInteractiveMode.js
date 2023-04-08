@@ -1,7 +1,7 @@
 import { readFileSync, existsSync } from 'fs';
-import { solveQuadEqu } from './equation.js';
+import { solveEquation } from './equation.js';
 
-const nonIntMode = (path) => {
+const nonInteractiveMode = (path) => {
   if (!existsSync(path)) {
     console.log(`File ${path} does not exist`);
     process.exit(404);
@@ -24,7 +24,7 @@ const nonIntMode = (path) => {
     console.log('A cannot be 0. Try again.');
     process.exit(400);
   }
-  solveQuadEqu(params[0], params[1], params[2]);
+  solveEquation(params[0], params[1], params[2]);
 };
 
-export { nonIntMode };
+export { nonInteractiveMode };

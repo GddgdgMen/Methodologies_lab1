@@ -26,4 +26,4 @@ const printRoots = (roots) => {
     }
 };
 
-export { solveQuadEqu };
+export { solveEquation };
