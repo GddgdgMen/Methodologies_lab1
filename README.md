@@ -15,7 +15,7 @@ In non-interactive mode, user can use a prewritten file with input parameters.
 
 ```
 Note! The file must contain the following formatting:
-1\s2\s3\n, where /s is a space and \n is a newline symbol.
+1\s2\s3\n, where \s is a space and \n is a newline symbol.
 ```
 
 [Revert commit](https://github.com/GddgdgMen/Methodologies_lab1/commit/467b1b9d75b9a77c4e0acf5c9093f166f9df55d0)
