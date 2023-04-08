@@ -1,4 +1,4 @@
-**Methodologies_lab1**
+# Methodologies_lab1
 
 This program was created to solve quadratic equations with structure $ax^2+bx+c=0$, where $a \neq 0$, where a != 0.
 The program has an interactive and a non-interactive mode.
@@ -13,7 +13,8 @@ In non-interactive mode, user can use a prewritten file with input parameters.
 ```node main.js``` for interactive mode,
 ```node main.js <file path>``` for non-interactive mode.
 
-```Note! The file must contain the following formatting:
+```
+Note! The file must contain the following formatting:
 1\s2\s3\n, where /s is a space and \n is a newline symbol.
 ```
 
