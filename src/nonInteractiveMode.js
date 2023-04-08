@@ -15,13 +15,13 @@ const nonIntMode = (path) => {
   let params = data.trim('\n').split(' ');
   for (const param of params) {
     if (isNaN(Number(param))) {
-      console.log(`Error. ${param} is not a number`);
+      console.log(`${param} is not a number. Input valid number.`);
       process.exit(400);
     }
   }
   params = params.map((param) => Number(param));
   if (params[0] === 0) {
-    console.log('A cannot be 0');
+    console.log('A cannot be 0. Try again.');
     process.exit(400);
   }
   solveQuadEqu(params[0], params[1], params[2]);
