@@ -22,7 +22,7 @@ const printRoots = (roots) => {
         console.log(`x1 is: ${roots[0]}`);
     } else if (rootsLength == 2) {
         console.log(`x1 is: ${roots[0]}`);
-        console.log(`x2 is: ${roots[1]}`);
+        console.log(`x2 is: ${roots[1]}`):
     }
 };
 
